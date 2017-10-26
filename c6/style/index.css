@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	box-sizing:border-box;
+	font-family: sans-serif;
+}
+body{
+	background-color: #f4f7f6;
+	padding:20px;
+}
+.website-box {
+	background-color: #fff;
+	width:25%;
+	height:500px;
+	transition: all ease-in-out .5s;
+	
+}
+.website-box:hover{
+	box-shadow: 0 10px 50px -10px rgba(0, 0, 0, .15);
+}
+	.web-image {
+		width:100%;
+		height:234px;
+		position:relative;
+		overflow: hidden;
+		/*background-color: red;*/
+	}
+		.web-image .image{
+			width:100%;
+			height:234px;
+			background-image: url(https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2017/10/59ddf4fc97677.jpg);
+			background-position:center;
+			background-size: cover;
+			transition: all ease-in-out .5s;
+		}
+		.web-image:hover .image{
+			transform:scale(1.1);
+		}
+		.web-image .image-top{
+			width:100%;
+			height:234px;
+			background-color: rgba(0, 0, 0, .3);
+			position: absolute;
+			top:0; /*<!--go pisuvame za da se pojavi vrz slikata-->*/
+			opacity:0;
+			transition: all ease-in-out .5s;
+
+		}
+		.web-image:hover .image-top{
+			opacity: 1;
+		}
