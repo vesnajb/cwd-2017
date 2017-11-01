@@ -3,6 +3,9 @@
 	overflow-x: none;
 
 }
+.clean{
+	clear:both;
+}
 body {
 	background-color: #f4f7f6;
 	padding:0;
@@ -82,12 +85,12 @@ header.top-header {
 
 		header.top-header .second .search{
 			width:80%;
-			text-decoration: none;
-			display:block;
+			display:flex;
+			height:30px;
+			    justify-content: flex-end;
 			}
 			header.top-header .second .search li{
-				text-decoration: none;
-				display:inline-block;
+				list-style: none;
 				float:left;
 				}
 			header.top-header .second .search li i{
@@ -95,37 +98,38 @@ header.top-header {
 				padding-top: 9px;
 				padding-left:15px;
 				}
-			header.top-header .second .search li img{
+			header.top-header .second .search li a img{
 				width:180px;
-				height:40px;
+				height:37px;
 				float:left;
-				padding-left: 400px;
-				padding-right: 220px
+				object-position: center;
+				/*padding-left: 400px;
+				padding-right: 220px*/
 			}
-			header.top-header .second .search li a{
+			header.top-header .second .search .register{
 				float:right;
 				text-decoration: none;
 				color:grey;
 				font-size:12px;
 				font-weight:900;
-				padding-top: 10px;
+				/*padding-top: 10px;*/
 				
 			}
-			header.top-header .second .submit {
+			/*header.top-header .second .submit {
 				float:right;
-				width:13%;
-				/*margin-right: 0px;*/
 				display:inline-block;
 				background-color:#52c4ad;
 				
-			}
+			}*/
 			header.top-header .second .submit a{
 				color:white;
+				float:right;
 				font-size:12px;
 				background-color:#52c4ad;
-				padding: 25px;
-				margin-top:15px;
+				padding: 20px;
 				text-decoration: none;
+				display:inline-block;	
+
 			}
 	.main {
 		width:100%;
