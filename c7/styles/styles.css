@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.body{
+
+}
+.main{
+	width:370px;
+	height:558px;
+	box-sizing: border-box;
+	margin:25px;
+	border-radius: 5px;
+}
+.main .img{
+	width:370px;
+	height:216px;
+	background-image: url(../image.jpg);
+	background-size:cover;
+}
+.main .img .account ul{
+	margin:20px;
+	box-sizing: border-box;
+
+}
+.main .img .account li{
+	list-style: none;
+	color:white;
+	float:left;
+	font-size: 11px;
+	margin-top:20px;
+	opacity:0.5;
+}
+.main .img .account ul i{
+	padding-right: 5px;
+}
+.main .img .account ul .h3{
+	font-weight: 500;
+}
+
+..main .img .account .icon{
+	float:right;
+}
