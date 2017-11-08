@@ -11,7 +11,6 @@ body{
 	
 }
 .header-top{
-	
 	padding:80px 0 0 80px;
 }
 .header-top button{
@@ -530,7 +529,7 @@ input:checked + .slider:before {
 .chat .photo .chat-text2{
 	width:256px;
 	height: 62px;
-	border-radius: 7px 7px 0px 7px;
+	border-radius: 7px 7px 7px 0px;
 	background-color: #51bf87;
 	color:white;
 	text-align: left;
@@ -897,3 +896,508 @@ input:checked + .slider:before {
 }
 .logacc .social .fb i{
 	font-size: 20px;
+}
+
+.both{
+	width:570px;
+	height:445px;
+
+}
+.mini_layout{
+	width: 370px;
+	height: 400px;
+	box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
+	margin-left: 80px;
+	margin-top: 810px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.mini_layout .nav{
+	float: left;
+	width: 100px;
+	height: 100%;
+	margin-top:-242px;
+}
+.mini_layout .content{
+	float: left;
+	width: calc(100% - 100px);
+	margin-top:-242px;
+}
+.mini_layout .nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+    z-index: 1;
+}
+.mini_layout .nav ul li{
+	width: 100%;
+	height: 25%;
+	position: relative;
+	overflow: hidden;
+}
+.mini_layout .nav ul li.green:before{
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-size: 21px;
+    position: absolute;
+    right: -7px;
+    width: 8px;
+    height: 18px;
+    line-height: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #47a877;
+}
+.mini_layout .nav ul li:first-child{
+	border-top-left-radius: 5px;
+}
+.mini_layout .nav ul li:last-child{
+	border-bottom-left-radius: 5px;
+}
+.mini_layout .nav .red{
+	background: #db5565;
+}
+.mini_layout .nav .orange{
+	background: #f4ad49;
+}
+.mini_layout .nav .green{
+	background: #47a877;
+}
+.mini_layout .nav .blue{
+	background: #0bacd3;
+}
+.mini_layout .nav ul li a{
+	text-decoration: none;
+}
+.mini_layout .nav ul li span{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 70px;
+    top: 10px;
+    left: -10px;
+}
+.mini_layout .nav ul li h2{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+	line-height: 100px;
+}
+.mini_layout .content_top{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+.mini_layout .content .content_top .img{
+	width: 270px;
+	height: 200px;
+	background-image:url(../tropical.jpg);
+	border-top-right-radius: 5px;
+}
+.mini_layout .content_top span{
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 28px;
+}
+.mini_layout .content_bottom{
+	float: left;
+	width: 100%;
+	height: calc(100% - 200px);
+	background: #fbf8f1;
+	box-sizing: border-box;
+	padding: 22px;
+	border-bottom-right-radius: 5px;
+}
+.mini_layout .content_title{
+	margin: 0px;
+	color: #593442;
+	font-size: 22px;
+}
+.mini_layout .content_bottom p{
+    margin: 24px 0px 0px 0px;
+    color: rgba(89, 52, 66, 0.5);
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.amsterdam{
+	width: 170px;
+	height: 445px;
+	box-sizing: border-box;
+	float:right;
+	margin-top:-445px;
+	margin-right:-85px;
+}
+.amsterdam .img{
+	width:100%;
+	height: 170px;
+	background-image: url(../amsterdam.jpg);
+	border-radius: 7px 7px 0 0;
+}
+.amsterdam .card{
+	width:100%;
+	height: 65px;
+	box-sizing: border-box;
+	background-color: #eee9e3;
+}
+.amsterdam .card li{
+	list-style: none;
+	text-align: center;
+}
+.amsterdam .card ul .word1{
+	color:#db5565;
+	font-size: 17px;
+	font-weight: 600;
+	position:relative;
+	padding-top:15px;
+	padding-bottom: 5px;
+}
+.amsterdam .card ul .word2{
+	color:#ae9b9e;
+	font-size: 10px;
+	font-weight: 600;
+	position:relative;
+}
+.amsterdam .card ul li i{
+	position:absolute;
+	font-size:90px;
+	color:#dfd7d3;
+	margin: -18px 0 20px -30px;
+	overflow:hidden;
+}
+.amsterdam .info{
+	width:100%;
+	height: 210px;
+	background-color: #fbf8f1;
+	box-sizing: border-box;
+	padding: 0;
+	border-radius: 0px 0px 7px 7px;
+}
+.amsterdam .info li{
+	list-style: none;
+	text-align: center;
+	color:#593442;
+}
+.amsterdam .info li:first-child{
+	padding-top:25px;
+}
+.amsterdam .info li:last-child{
+	color:#b4a3a5;
+}
+.amsterdam .info ul hr{
+	width:110px;
+	margin:10px 35px;
+	color:#af9d9f;
+}
+
+.bottom_right{
+	width:980px;
+	height:315px;
+	float:right;
+	margin-top:-360px;
+	margin-right: 55px;
+}
+.bottom_right .posts{
+	width:370px;
+	height:315px;
+	box-sizing: border-box;
+	float:left;
+	
+}
+.bottom_right .posts .first_line{
+	background-color: #eee9e3;
+	width:370px;
+	height:53px;
+	border-radius:7px 7px 0 0;
+}
+.bottom_right .posts .recent{
+	float:left;
+	width:167px;
+	height: 53px;
+	background-color: #fbf8f1;
+	border-radius: 7px 7px 0 0;
+}
+.bottom_right .posts .recent h3{
+	color:#563743;
+	font-size: 15px;
+	margin:17px 20px 0 20px;
+}
+
+.bottom_right .posts .popular{
+	float:left;
+	width:203px;
+	height: 53px;
+	background-color: #eee9e3;
+	border-radius:0 7px 0 0;
+}
+.bottom_right .posts .popular li{
+	float: left;
+	list-style: none;
+
+}
+.bottom_right .posts .popular li i{
+	color:#a8979a;
+	font-size: 20px;
+	margin:15px 10px 0 15px;
+	
+}
+.bottom_right .posts .popular li h3{
+	color:#a8979a;
+	font-size: 15px;
+	margin-top:17px;
+}
+.bottom_right .posts .post1{
+	width:370px;
+	height: 131px;
+	box-sizing: border-box;
+	background-color: #fbf8f1;
+	padding-top:30px;
+}
+.bottom_right .posts .post1 .image{
+	float:left;
+	margin-left:30px;
+}
+.bottom_right .posts .post1 .text1{
+	float:left;
+	box-sizing: border-box;
+	width:260px;
+	height: 131px;
+}
+.bottom_right .posts .post1 .text1 h3{
+	font-size: 17px;
+	color:#563743;
+	margin:10px 0 5px 16px;
+}
+.bottom_right .posts .post1 .text1 p{
+	font-size: 15px;
+	color:#baaaab;
+	margin-left:16px;
+}
+.bottom_right .posts .post2{
+	width:370px;
+	height: 131px;
+	box-sizing: border-box;
+	background-color: #fbf8f1;
+	border-radius: 0 0 7px 7px;
+}
+
+.bottom_right .posts .post2 .image{
+	float:left;
+	margin-left:30px;
+}
+.bottom_right .posts .post2 .text2{
+	float:left;
+	box-sizing: border-box;
+	width:260px;
+	height: 131px;
+
+}
+.bottom_right .posts .post2 .text2 h3{
+	font-size: 17px;
+	color:#563743;
+	margin:10px 0 5px 16px;
+}
+.bottom_right .posts .post2 .text2 p{
+	font-size: 15px;
+	color:#baaaab;
+	margin-left:16px;
+}
+.bottom_right .calendar{
+	width:570px;
+	height:315px;
+	background-color: #fbf8f1;
+	float:right;
+	border-radius: 7px;
+}
+.bottom_right .calendar .image{
+	width:285px;
+	height:315px;
+	background-image: url(../beach2.jpg);
+	background-size: cover;
+	border-radius: 7px 0 0 7px;
+	margin:0;
+	float:left;
+}
+.bottom_right .calendar .image .space{
+	width:285px;
+	height:245px;
+}
+.bottom_right .calendar .image .date{
+	width:245px;
+	height:38px;
+	border-radius: 25px;
+	background-color: #664547;
+	opacity:0.7;
+	margin-left:20px;
+	margin-top:15px;
+}
+.bottom_right .calendar .image .date ul{
+	list-style: none;
+}
+.bottom_right .calendar .image .date ul li{
+	float:left;
+}
+.bottom_right .calendar .image .date ul .icon1{
+	margin:10px 0 0 15px;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .image .date ul .icon2{
+	margin:10px 15px 0 0;
+	float:right;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .image .date ul h3{
+	margin:10px 50px 0 50px;
+	font-size:15px;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .numbers{
+	width:285px;
+	height:315px;
+	border-radius:0 7px 7px 0; 
+	float:left;
+}
+.bottom_right .calendar .numbers .month{
+	width:285px;
+	height:53px;
+	background-color: #e15868;
+	border-radius:0 7px 0 0; 
+}
+.bottom_right .calendar .numbers .month ul{
+	list-style: none;
+}
+.bottom_right .calendar .numbers .month ul li{
+	float:left;
+}
+.bottom_right .calendar .numbers .month ul .icon1{
+	margin:20px 0 0 20px;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .numbers .month ul .icon2{
+	margin:20px 20px 0 0;
+	float:right;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .numbers .month ul h3{
+	margin:20px 75px 0 75px;
+	font-size:15px;
+	color:#ebe6e7;
+}
+.bottom_right .calendar .numbers .days{
+	width:285px;
+	height:262px;
+}
+.bottom_right .calendar .numbers .days .week{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week ul{
+	margin-left:20px;
+}
+.bottom_right .calendar .numbers .days .week li{
+	list-style: none;
+	float:left;
+	font-size: 11px;
+	padding: 20px 14px 0 0px;
+	color:#b4a3a5;
+}
+.bottom_right .calendar .numbers .days .week ul .color{
+	color:#f6c681;
+}
+.bottom_right .calendar .numbers .days .week2{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week2 ul{
+	margin-left:6px;
+}
+.bottom_right .calendar .numbers .days .week2 li{
+	list-style: none;
+	float:left;
+	font-size: 12px;
+	padding: 15px 15px 0 15px;
+
+}
+.bottom_right .calendar .numbers .days .week2 li:first-child{
+	color:#af9d9f;
+}
+
+.bottom_right .calendar .numbers .days .week3{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week3 ul{
+	margin-left:12px;
+}
+.bottom_right .calendar .numbers .days .week3 li{
+	list-style: none;
+	float:left;
+	font-size: 12px;
+	padding: 15px 13.5px 0 13.5px;
+
+}
+.bottom_right .calendar .numbers .days .week4{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week4 ul{
+	margin-left:20px;
+}
+.bottom_right .calendar .numbers .days .week4 li{
+	list-style: none;
+	float:left;
+	font-size: 12px;
+	padding: 15px 24px 0 0px;
+
+}
+.bottom_right .calendar .numbers .days .week4 ul .color{
+	width:33px;
+	height:33px;
+	background-color: #51bf87;
+	border-radius: 50%;
+	margin-top:4px;
+	margin-left:-10px;
+	margin-right:16px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-left:10px;
+	color:white;
+}
+.bottom_right .calendar .numbers .days .week5{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week5 ul{
+	margin-left:20px;
+}
+.bottom_right .calendar .numbers .days .week5 li{
+	list-style: none;
+	float:left;
+	font-size: 12px;
+	padding: 15px 24px 0 0px;
+
+}
+.bottom_right .calendar .numbers .days .week6{
+	width:285px;
+	height:43.5px;
+}
+.bottom_right .calendar .numbers .days .week6 ul{
+	margin-left:20px;
+}
+.bottom_right .calendar .numbers .days .week6 li{
+	list-style: none;
+	float:left;
+	font-size: 12px;
+	padding: 15px 27px 0 0px;
+
+}
+.bottom_right .calendar .numbers .days .week6 ul .color{
+	color:#af9d9f;
+}
