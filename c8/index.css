@@ -1,0 +1,67 @@
+html, body{
+	height: 100%
+}
+body{
+	background-color: grey;
+	
+}
+.container{
+	background-color: #fff;
+	display:flex;
+	height:100%;
+
+	flex-direction: row;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column;*/
+	/*flex-direction: column-reverse;*/
+
+	/*flex-wrap: wrap;*/
+	flex-wrap: nowrap;
+	/*flex-wrap: wrap-reverse;*/
+
+	justify-content: flex-end;
+	/*justify-content:flex-start;*/
+	/*justify-content: center;*/
+	/*justify-content: space-around;*/
+	/*justify-content: space-between;*/
+
+	align-items: flex-end;
+	/*align-items: flex-center;*/
+	/*align-items: flex-start;*/
+}
+.container .item{
+	color:#fff;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+}
+.purple{
+	background-color: purple;
+}
+.one{
+	order:2;
+	flex-grow: 5;
+}
+.two{
+	order:1;
+	flex-grow: 
+}
+.three{
+	order:4;
+	flex-grow: 
+}
+.four{
+	order: 5;
+}
+.five{
+	order:3;
+}
